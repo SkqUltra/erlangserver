@@ -1,0 +1,15 @@
+{
+	[
+		'../src/*',
+		'../src/lib/*',
+		'../src/mod/*',
+		'../src/pp/*',
+		'../src/pt/*',
+        '../src/data/*'
+	]
+	,[
+		debug_info
+		,{i, "../include"}
+		,{outdir, "../ebin"}
+	]
+}.
