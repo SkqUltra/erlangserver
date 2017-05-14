@@ -8,8 +8,7 @@
         '../src/data/*'
 	]
 	,[
-		debug_info
-		,{i, "../include"}
+		{i, "../include"}
 		,{outdir, "../ebin"}
 	]
 }.
